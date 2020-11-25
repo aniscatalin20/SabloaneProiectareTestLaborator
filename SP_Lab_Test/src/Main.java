@@ -4,7 +4,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        List<Element> element = new ArrayList<Element>();
+        List<Element> order = new ArrayList<Element>();
         SupaPui supaPui = new SupaPui();
         SupaPui supaPui2 = new SupaPui();
         FripturaPorc fripturaPorc = new FripturaPorc();
@@ -16,16 +16,18 @@ public class Main {
         ApaMinerala apaMinerala = new ApaMinerala();
         ApaMinerala apaMinerala2 = new ApaMinerala();
 
-        element.add(supaPui);
-        element.add(supaPui2);
-        element.add(fripturaPorc);
-        element.add(snitelVienez);
-        element.add(cartofiWedges);
-        element.add(cartofiWedges2);
-        element.add(salataRosii);
-        element.add(salataRosii2);
-        element.add(apaMinerala);
-        element.add(apaMinerala2);
+        order.add(supaPui);
+        order.add(supaPui2);
+        order.add(fripturaPorc);
+        order.add(snitelVienez);
+        order.add(cartofiWedges);
+        order.add(cartofiWedges2);
+        order.add(salataRosii);
+        order.add(salataRosii2);
+        order.add(apaMinerala);
+        order.add(apaMinerala2);
 
+
+        new DisplayOrderCmd().execute();
     }
 }
