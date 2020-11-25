@@ -39,12 +39,12 @@ public class DisplayOrderCmd implements Order{
 
     public void execute(){
         System.out.println("Comanda: ");
-        System.out.println(supaPuiCounter + "x Supe pui x" +  supaPuiPret);
-        System.out.println(fripturaPorcCounter + "x Friptura de porc la tava x" +  (int)fripturaPorcPret);
-        System.out.println(snitelVienezCounter + "x Snitel vienez x" +  (int)snitelVienezPret);
-        System.out.println(cartofiWedgesCounter + "x Cartofi Wedges x" +  (int)cartofiWedgesPret);
-        System.out.println(salataRosiiCounter + "x Salata rosii x" +  (int)salataRosiiPret);
-        System.out.println(apaMineralaCounter + "x Ape minerale x" +  (int)apaMineralaPret);
+        System.out.println(supaPuiCounter + "x Supe pui x " +  supaPuiPret + " RON");
+        System.out.println(fripturaPorcCounter + "x Friptura de porc la tava x " +  (int)fripturaPorcPret + " RON");
+        System.out.println(snitelVienezCounter + "x Snitel vienez x " +  (int)snitelVienezPret + " RON");
+        System.out.println(cartofiWedgesCounter + "x Cartofi Wedges x " +  (int)cartofiWedgesPret + " RON");
+        System.out.println(salataRosiiCounter + "x Salata rosii x " +  (int)salataRosiiPret + " RON");
+        System.out.println(apaMineralaCounter + "x Ape minerale x " +  (int)apaMineralaPret + " RON");
         double total = supaPuiCounter*supaPuiPret + fripturaPorcCounter*fripturaPorcPret +
                 snitelVienezPret*snitelVienezCounter + cartofiWedgesPret*cartofiWedgesCounter +
                 salataRosiiPret*salataRosiiCounter + apaMineralaPret*apaMineralaCounter;
